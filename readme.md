@@ -14,6 +14,8 @@ This repository contains my work for the first module in [TechWorld with Nana's 
 	-> Monitoring tools can also be used to check release all or most of the time, so that instead of going from a waterfall approach (all of the changes at once), the changes to the code happen like a LaTex document being compiled 
 	-> This is the process of compiling the changes to the features which the developers make to the features which the users see in the deployed application(s)
 
+[To Download `TWN DevOps Module 1 Study Notes.txt`](https://raw.githubusercontent.com/franpanteli/TechWorld-with-Nana-DevOps-Bootcamp-Module-1/main/TWN%20DevOps%20Module%201%20Study%20Notes.txt)
+
 ### To Clone This Repository
 ```
 git clone https://github.com/franpanteli/TechWorld-with-Nana-DevOps-Bootcamp-Module-1.git
