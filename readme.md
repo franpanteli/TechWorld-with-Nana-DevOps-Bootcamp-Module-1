@@ -2,7 +2,7 @@
 ## Repository Contents 
 This repository contains my work for the first module in [TechWorld with Nana's DevOps Bootcamp](https://www.techworld-with-nana.com/devops-bootcamp) bootcamp. This was completed as part of my independent learning, to invest in my DevOps skills. A txt file containing [module notes](https://raw.githubusercontent.com/franpanteli/TechWorld-with-Nana-DevOps-Bootcamp-Module-1/refs/heads/main/TWN%20DevOps%20Module%201%20Study%20Notes.txt) was first created for this. This introduction outlined the necessity of DevOps in the context of software testing and deployment, as well as the contrast between waterfall and agile methodologies for releasing application features. A [word cloud](https://wordart.com/) based on these notes is provided below, along with a summary.  
 
-<img width="872" alt="Screenshot 2025-01-19 at 15 36 10" src="https://github.com/franpanteli/TechWorld-with-Nana-DevOps-Bootcamp-Module-1/blob/main/Screenshot%202025-05-26%20at%2017.35.41.png" />
+<img width="872" alt="Screenshot 2025-01-19 at 15 36 10" src="https://github.com/franpanteli/TechWorld-with-Nana-DevOps-Bootcamp-Module-1/blob/main/Notes%20Word%20Cloud%20Giff.png" />
 
 ### Notes Summary
 	-> Applications are written, and when this is the case, there are developers who write changes to the code 
