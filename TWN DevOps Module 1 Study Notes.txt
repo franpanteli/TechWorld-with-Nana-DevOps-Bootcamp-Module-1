@@ -1,3 +1,79 @@
+-> What different jobs do 
+	-> Plan > implement > test > deploy > maintain 
+	-> These are IT processes 
+
+-> Software development 
+	-> Programming <- a developer team 
+		-> Multiple languages and developer teams 
+		-> One or multiple teams per feature 
+		-> Fixing bugs with features
+	-> Testing the application 
+		-> Developers and testers test the code 
+		-> It's a problem solving process
+		-> There are automated testers
+		-> Changing the. Code and then testing the changes made 
+	-> Release
+		-> Releasing the changes made to the code <- building the application and then running this on servers
+		-> This requires updating the existing application 
+		-> This uses operations 
+			-> Running the new feature(s) on the production servers 
+		-> Integrating the new feature 
+			-> The application can't have a downtime 
+			-> The update is deployed while the application runs, seamlessly 
+			-> The upgrades happening seamlessly is to do with operations 
+		-> Development produces changes and operations is to do with hardware / deploying these changes on it 
+			-> Operations is also responsible for managing the amount of requests sent to the server 
+				-> Load resistance 
+	-> DevOps 
+				-> The developer team passes over instructions to operations <- there are missing parts and it might not be clear enough 
+		-> Developer <- programming languages, testing this, databases, version control 
+			-> Writing changes to the application 
+		-> Operations <- OS, Linux, command-line, scripting, monitoring tools 
+			-> Committing application changes
+				-> These changes may require a database, for example
+		-> Writing the changes and checking the changes to the code (deploying / managing them and the system to do with how this happens)
+		-> DevOps combines the two, because otherwise they would be separate
+	-> Application release cycles 
+		-> The time taken for a new feature to be released to the public
+			-> DevOps reduces this time, because developer and operations are no longer two separate sides
+			-> DevOps used to be a culture, now it is a separate job title 
+	-> Responsibilities 
+		-> Developer and operations <- knowing a combination of both 
+		-> Going from developer to operations 
+		-> This is to do with feature release
+	-> Skills 
+		-> Test > build > push > deploy 
+		-> CI/CD pipeline <- the process of delivering the application to the release process
+		-> Docker and Kubernetes <- containerisation 
+		-> DevOps is developer and operations 
+-> Waterfall vs agile 
+	-> Waterfall 
+		-> This is older than waterfall 
+		-> Developers write a feature 
+		-> They write the whole feature 
+		-> Business people envision the feature, and then the developers write that feature 
+		-> This is done for the whole application, in a pipeline 
+		-> The entire application is then tested at the end 
+		-> A few cycles for this are done 
+		-> When the developers are done, they then push this over to operations for release of the features and application 
+	-> Waterfall issues 
+		-> This can take years to make the application 
+		-> The process is ineffective 
+		-> The places of failure contain miscommunication 
+		-> There is no fast feedback 
+	-> Agile 
+		-> Cycles 
+		-> New features are tested and deployed 
+		-> It's by feature, rather than for the entire application in one or a few waterfalls 
+		-> Scrum and Kanban <- there are specific implementations of this 
+		-> Continuous integration and delivery 
+			-> Going in multiple /  numerous cycles 
+		-> DevOps uses CI/CD <- releasing the features in cycles 
+			-> Using tools as opposed to people to release features / changes to the code 
+			-> Doing this in sections 
+			-> Implement > test > build > deploy > maintain 
+			-> Releasing application changes in terms of features which are made 
+
 -> Introduction to DevOps  
    -> Intersection of development and operations teams  
    -> Aims to automate and streamline the processes between software development and IT operations  
@@ -95,82 +171,6 @@
    	-> DevOps culture is constantly evolving as teams and tools improve  
   	 -> Flexibility in implementation: companies adapt DevOps based on their needs, tools, and existing processes  
   	 -> Key goal remains to speed up software delivery while minimising errors and downtime
-
--> What different jobs do 
-	-> Plan > implement > test > deploy > maintain 
-	-> These are IT processes 
-
--> Software development 
-	-> Programming <- a developer team 
-		-> Multiple languages and developer teams 
-		-> One or multiple teams per feature 
-		-> Fixing bugs with features
-	-> Testing the application 
-		-> Developers and testers test the code 
-		-> It's a problem solving process
-		-> There are automated testers
-		-> Changing the. Code and then testing the changes made 
-	-> Release
-		-> Releasing the changes made to the code <- building the application and then running this on servers
-		-> This requires updating the existing application 
-		-> This uses operations 
-			-> Running the new feature(s) on the production servers 
-		-> Integrating the new feature 
-			-> The application can't have a downtime 
-			-> The update is deployed while the application runs, seamlessly 
-			-> The upgrades happening seamlessly is to do with operations 
-		-> Development produces changes and operations is to do with hardware / deploying these changes on it 
-			-> Operations is also responsible for managing the amount of requests sent to the server 
-				-> Load resistance 
-	-> DevOps 
-				-> The developer team passes over instructions to operations <- there are missing parts and it might not be clear enough 
-		-> Developer <- programming languages, testing this, databases, version control 
-			-> Writing changes to the application 
-		-> Operations <- OS, Linux, command-line, scripting, monitoring tools 
-			-> Committing application changes
-				-> These changes may require a database, for example
-		-> Writing the changes and checking the changes to the code (deploying / managing them and the system to do with how this happens)
-		-> DevOps combines the two, because otherwise they would be separate
-	-> Application release cycles 
-		-> The time taken for a new feature to be released to the public
-			-> DevOps reduces this time, because developer and operations are no longer two separate sides
-			-> DevOps used to be a culture, now it is a separate job title 
-	-> Responsibilities 
-		-> Developer and operations <- knowing a combination of both 
-		-> Going from developer to operations 
-		-> This is to do with feature release
-	-> Skills 
-		-> Test > build > push > deploy 
-		-> CI/CD pipeline <- the process of delivering the application to the release process
-		-> Docker and Kubernetes <- containerisation 
-		-> DevOps is developer and operations 
--> Waterfall vs agile 
-	-> Waterfall 
-		-> This is older than waterfall 
-		-> Developers write a feature 
-		-> They write the whole feature 
-		-> Business people envision the feature, and then the developers write that feature 
-		-> This is done for the whole application, in a pipeline 
-		-> The entire application is then tested at the end 
-		-> A few cycles for this are done 
-		-> When the developers are done, they then push this over to operations for release of the features and application 
-	-> Waterfall issues 
-		-> This can take years to make the application 
-		-> The process is ineffective 
-		-> The places of failure contain miscommunication 
-		-> There is no fast feedback 
-	-> Agile 
-		-> Cycles 
-		-> New features are tested and deployed 
-		-> It's by feature, rather than for the entire application in one or a few waterfalls 
-		-> Scrum and Kanban <- there are specific implementations of this 
-		-> Continuous integration and delivery 
-			-> Going in multiple /  numerous cycles 
-		-> DevOps uses CI/CD <- releasing the features in cycles 
-			-> Using tools as opposed to people to release features / changes to the code 
-			-> Doing this in sections 
-			-> Implement > test > build > deploy > maintain 
-			-> Releasing application changes in terms of features which are made 
 
 -> Summary
 	-> Applications are written, and when this is the case, there are developers who write changes to the code 
