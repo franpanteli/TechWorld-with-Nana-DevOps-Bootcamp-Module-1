@@ -1,0 +1,97 @@
+-> introduction to DevOps  
+   -> intersection of development and operations teams  
+   -> aims to automate and streamline the processes between software development and IT operations  
+   -> focus on continuous delivery with minimal errors  
+   -> reduces silos and promotes collaboration between teams  
+
+-> development and operations in traditional model  
+   -> development focuses on building new features, writing code, and releasing new software  
+   -> operations focuses on maintaining the stability of systems, running software in production, and ensuring uptime  
+   -> development often deals with programming languages like Java, Python, JavaScript  
+   -> operations often uses tools like Linux OS, command-line scripts, monitoring tools  
+
+-> issues with traditional model  
+   -> communication barriers between development and operations teams  
+   -> conflict of interest: dev team focuses on speed, ops team on stability  
+   -> manual deployment and configuration are slow and error-prone  
+   -> testing is often manual, leading to inefficiency in verifying features and functionality  
+
+-> DevOps solution  
+   -> DevOps creates a more collaborative environment between development and operations teams  
+   -> aim to reduce manual work by using automation for repetitive tasks  
+   -> CI/CD pipeline to automate testing, building, and deployment of software  
+   -> treating infrastructure as code (IaC) and using container orchestration tools like Kubernetes  
+   -> shift-left testing: integrating testing earlier in the development process  
+
+-> DevOps culture  
+   -> encourages collaboration between development and operations teams  
+   -> focuses on speed and error reduction in software delivery  
+   -> common language for communication: "DevOps"  
+   -> CI/CD pipeline is at the core of DevOps for a smooth and continuous delivery process  
+
+-> DevOps tools  
+   -> version control: Git, GitLab  
+   -> continuous integration/continuous deployment (CI/CD): Jenkins, GitLab CI  
+   -> infrastructure automation: Terraform, Ansible  
+   -> containers & orchestration: Docker, Kubernetes  
+   -> cloud platforms: AWS, Azure, Google Cloud  
+   -> monitoring tools: Prometheus, Grafana  
+
+-> DevOps as a role  
+   -> DevOps engineer: a role focused on managing the automation of the release process  
+   -> can be filled by developers, operations, or a dedicated DevOps engineer  
+   -> role requires a blend of development skills and operational knowledge  
+   -> DevOps engineer automates infrastructure, builds CI/CD pipelines, and integrates deployment tools  
+
+-> DevOps tasks and responsibilities  
+   -> development tasks (code commit, CI/CD)  
+   -> operations tasks (deployment, monitoring, scaling, infrastructure as code)  
+   -> additional tasks for DevOps engineer: automating manual processes, ensuring smooth integration of code into production  
+   -> tasks in the DevOps pipeline:  
+      -> package management  
+      -> source code management  
+      -> continuous integration/delivery  
+      -> infrastructure as code  
+      -> container orchestration  
+      -> cloud management  
+      -> continuous monitoring  
+
+-> CI/CD pipeline in DevOps  
+   -> continuous integration (CI)  
+      -> automates code testing, ensures compatibility with the main codebase  
+   -> continuous delivery (CD)  
+      -> automates deployment of the code to production or staging environments  
+   -> goal is to make the deployment process seamless, fast, and reliable  
+
+-> DevOps tools for CI/CD  
+   -> Git: source control system  
+   -> Jenkins, GitLab CI: tools to automate build and deployment processes  
+   -> Docker: tool to containerise applications  
+   -> Terraform: automate infrastructure provisioning  
+   -> Ansible: automate configuration management  
+   -> Kubernetes: manage containerised applications  
+   -> Prometheus & Grafana: monitor systems and infrastructure  
+
+-> example DevOps engineer workflow  
+   -> develop code, push it to Git repository  
+   -> CI tool (e.g., Jenkins) triggers build and runs tests  
+   -> if tests pass, deploy code to a staging environment  
+   -> if staging is successful, automatically deploy to production  
+   -> use monitoring tools to observe the application in production  
+
+-> key principles of DevOps  
+   -> automation: automating repetitive manual tasks like deployment, testing, and infrastructure setup  
+   -> collaboration: improved communication and collaboration between development and operations teams  
+   -> continuous improvement: constant feedback loops and incremental improvements in processes and tools  
+   -> monitoring: continuous monitoring of applications and infrastructure to quickly detect and resolve issues  
+
+-> DevOps challenges  
+   -> complexity of toolchains: managing and integrating multiple tools for automation, monitoring, etc.  
+   -> cultural shift: overcoming resistance to change and encouraging collaboration between teams  
+   -> security: ensuring security in automated processes and compliance with regulations  
+   -> scale: scaling DevOps practices for large applications and organisations  
+
+-> conclusion: DevOps as a continuous evolution  
+   -> DevOps culture is constantly evolving as teams and tools improve  
+   -> flexibility in implementation: companies adapt DevOps based on their needs, tools, and existing processes  
+   -> key goal remains to speed up software delivery while minimising errors and downtime  
