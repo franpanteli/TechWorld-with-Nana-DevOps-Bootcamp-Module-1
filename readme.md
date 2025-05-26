@@ -1,7 +1,15 @@
 # TechWorld-with-Nana-DevOps-Bootcamp-Module-1
 ### About This Repository
 Insert if you want to.
-
+-> Summary
+	-> Applications are written, and when this is the case, there are developers who write changes to the code 
+	-> There are also operations, who release these features to the general public (in most cases)
+	-> Developers write the new feature, and operations release them 
+	-> The feature release can happen in a waterfall approach (the business people write about the features they want, and then this is released all in one), or in an agile approach 
+	-> Releasing features in an agile approach means that DevOps tools are used to automate the process of feature release
+	-> Instead of developers writing a new feature and then writing instructions for operations on how to release this, there can be a DevOps pipeline so that this happens faster
+	-> Monitoring tools can also be used to check release all or most of the time, so that instead of going from a waterfall approach (all of the changes at once), the changes to the code happen like a LaTex document being compiled 
+	-> This is the process of compiling the changes to the features which the developers make to the features which the users see in the deployed application(s)
 ### To Clone This Repository
 ```
 git clone https://github.com/franpanteli/TechWorld-with-Nana-DevOps-Bootcamp-Module-1.git
