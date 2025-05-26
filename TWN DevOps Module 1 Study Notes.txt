@@ -1,67 +1,67 @@
--> introduction to DevOps  
-   -> intersection of development and operations teams  
-   -> aims to automate and streamline the processes between software development and IT operations  
-   -> focus on continuous delivery with minimal errors  
-   -> reduces silos and promotes collaboration between teams  
+-> Introduction to DevOps  
+   -> Intersection of development and operations teams  
+   -> Aims to automate and streamline the processes between software development and IT operations  
+   -> Focus on continuous delivery with minimal errors  
+   -> Reduces silos and promotes collaboration between teams  
 
--> development and operations in traditional model  
-   -> development focuses on building new features, writing code, and releasing new software  
-   -> operations focuses on maintaining the stability of systems, running software in production, and ensuring uptime  
-   -> development often deals with programming languages like Java, Python, JavaScript  
-   -> operations often uses tools like Linux OS, command-line scripts, monitoring tools  
+-> Development and operations in traditional model  
+   -> Development focuses on building new features, writing code, and releasing new software  
+   -> Operations focuses on maintaining the stability of systems, running software in production, and ensuring uptime  
+   -> Development often deals with programming languages like Java, Python, JavaScript  
+   -> Operations often uses tools like Linux OS, command-line scripts, monitoring tools  
 
--> issues with traditional model  
-   -> communication barriers between development and operations teams  
-   -> conflict of interest: dev team focuses on speed, ops team on stability  
-   -> manual deployment and configuration are slow and error-prone  
-   -> testing is often manual, leading to inefficiency in verifying features and functionality  
+-> Issues with traditional model  
+   -> Communication barriers between development and operations teams  
+   -> Conflict of interest: dev team focuses on speed, ops team on stability  
+   -> Manual deployment and configuration are slow and error-prone  
+   -> Testing is often manual, leading to inefficiency in verifying features and functionality  
 
 -> DevOps solution  
    -> DevOps creates a more collaborative environment between development and operations teams  
-   -> aim to reduce manual work by using automation for repetitive tasks  
+   -> Aim to reduce manual work by using automation for repetitive tasks  
    -> CI/CD pipeline to automate testing, building, and deployment of software  
-   -> treating infrastructure as code (IaC) and using container orchestration tools like Kubernetes  
-   -> shift-left testing: integrating testing earlier in the development process  
+   -> Treating infrastructure as code (IaC) and using container orchestration tools like Kubernetes  
+   -> Shift-left testing: integrating testing earlier in the development process  
 
 -> DevOps culture  
-   -> encourages collaboration between development and operations teams  
-   -> focuses on speed and error reduction in software delivery  
-   -> common language for communication: "DevOps"  
+   -> Encourages collaboration between development and operations teams  
+   -> Focuses on speed and error reduction in software delivery  
+   -> Common language for communication: "DevOps"  
    -> CI/CD pipeline is at the core of DevOps for a smooth and continuous delivery process  
 
 -> DevOps tools  
-   -> version control: Git, GitLab  
-   -> continuous integration/continuous deployment (CI/CD): Jenkins, GitLab CI  
-   -> infrastructure automation: Terraform, Ansible  
-   -> containers & orchestration: Docker, Kubernetes  
-   -> cloud platforms: AWS, Azure, Google Cloud  
-   -> monitoring tools: Prometheus, Grafana  
+   -> Version control: Git, GitLab  
+   -> Continuous integration/continuous deployment (CI/CD): Jenkins, GitLab CI  
+   -> Infrastructure automation: Terraform, Ansible  
+   -> Containers & orchestration: Docker, Kubernetes  
+   -> Cloud platforms: AWS, Azure, Google Cloud  
+   -> Monitoring tools: Prometheus, Grafana  
 
 -> DevOps as a role  
    -> DevOps engineer: a role focused on managing the automation of the release process  
-   -> can be filled by developers, operations, or a dedicated DevOps engineer  
-   -> role requires a blend of development skills and operational knowledge  
+   -> Can be filled by developers, operations, or a dedicated DevOps engineer  
+   -> Role requires a blend of development skills and operational knowledge  
    -> DevOps engineer automates infrastructure, builds CI/CD pipelines, and integrates deployment tools  
 
 -> DevOps tasks and responsibilities  
-   -> development tasks (code commit, CI/CD)  
-   -> operations tasks (deployment, monitoring, scaling, infrastructure as code)  
-   -> additional tasks for DevOps engineer: automating manual processes, ensuring smooth integration of code into production  
-   -> tasks in the DevOps pipeline:  
-      -> package management  
-      -> source code management  
-      -> continuous integration/delivery  
-      -> infrastructure as code  
-      -> container orchestration  
-      -> cloud management  
-      -> continuous monitoring  
+   -> Development tasks (code commit, CI/CD)  
+   -> Operations tasks (deployment, monitoring, scaling, infrastructure as code)  
+   -> Additional tasks for DevOps engineer: automating manual processes, ensuring smooth integration of code into production  
+   -> Tasks in the DevOps pipeline:  
+      -> Package management  
+      -> Source code management  
+      -> Continuous integration/delivery  
+      -> Infrastructure as code  
+      -> Container orchestration  
+      -> Cloud management  
+      -> Continuous monitoring  
 
 -> CI/CD pipeline in DevOps  
-   -> continuous integration (CI)  
-      -> automates code testing, ensures compatibility with the main codebase  
-   -> continuous delivery (CD)  
+   -> Continuous integration (CI)  
+      -> Automates code testing, ensures compatibility with the main codebase  
+   -> Continuous delivery (CD)  
       -> automates deployment of the code to production or staging environments  
-   -> goal is to make the deployment process seamless, fast, and reliable  
+   -> Goal is to make the deployment process seamless, fast, and reliable  
 
 -> DevOps tools for CI/CD  
    -> Git: source control system  
@@ -72,26 +72,112 @@
    -> Kubernetes: manage containerised applications  
    -> Prometheus & Grafana: monitor systems and infrastructure  
 
--> example DevOps engineer workflow  
-   -> develop code, push it to Git repository  
+-> Example DevOps engineer workflow  
+   -> Develop code, push it to Git repository  
    -> CI tool (e.g., Jenkins) triggers build and runs tests  
-   -> if tests pass, deploy code to a staging environment  
-   -> if staging is successful, automatically deploy to production  
-   -> use monitoring tools to observe the application in production  
+   -> If tests pass, deploy code to a staging environment  
+   -> If staging is successful, automatically deploy to production  
+   -> Use monitoring tools to observe the application in production  
 
--> key principles of DevOps  
-   -> automation: automating repetitive manual tasks like deployment, testing, and infrastructure setup  
-   -> collaboration: improved communication and collaboration between development and operations teams  
-   -> continuous improvement: constant feedback loops and incremental improvements in processes and tools  
-   -> monitoring: continuous monitoring of applications and infrastructure to quickly detect and resolve issues  
+-> Key principles of DevOps  
+   -> Automation: automating repetitive manual tasks like deployment, testing, and infrastructure setup  
+   -> Collaboration: improved communication and collaboration between development and operations teams  
+   -> Continuous improvement: constant feedback loops and incremental improvements in processes and tools  
+   -> Monitoring: continuous monitoring of applications and infrastructure to quickly detect and resolve issues  
 
 -> DevOps challenges  
-   -> complexity of toolchains: managing and integrating multiple tools for automation, monitoring, etc.  
-   -> cultural shift: overcoming resistance to change and encouraging collaboration between teams  
-   -> security: ensuring security in automated processes and compliance with regulations  
-   -> scale: scaling DevOps practices for large applications and organisations  
+   -> Complexity of toolchains: managing and integrating multiple tools for automation, monitoring, etc.  
+   -> Cultural shift: overcoming resistance to change and encouraging collaboration between teams  
+   -> Security: ensuring security in automated processes and compliance with regulations  
+   -> Scale: scaling DevOps practices for large applications and organisations  
 
--> conclusion: DevOps as a continuous evolution  
-   -> DevOps culture is constantly evolving as teams and tools improve  
-   -> flexibility in implementation: companies adapt DevOps based on their needs, tools, and existing processes  
-   -> key goal remains to speed up software delivery while minimising errors and downtime  
+	-> Conclusion: DevOps as a continuous evolution  
+   	-> DevOps culture is constantly evolving as teams and tools improve  
+  	 -> Flexibility in implementation: companies adapt DevOps based on their needs, tools, and existing processes  
+  	 -> Key goal remains to speed up software delivery while minimising errors and downtime
+
+-> What different jobs do 
+	-> Plan > implement > test > deploy > maintain 
+	-> These are IT processes 
+
+-> Software development 
+	-> Programming <- a developer team 
+		-> Multiple languages and developer teams 
+		-> One or multiple teams per feature 
+		-> Fixing bugs with features
+	-> Testing the application 
+		-> Developers and testers test the code 
+		-> It's a problem solving process
+		-> There are automated testers
+		-> Changing the. Code and then testing the changes made 
+	-> Release
+		-> Releasing the changes made to the code <- building the application and then running this on servers
+		-> This requires updating the existing application 
+		-> This uses operations 
+			-> Running the new feature(s) on the production servers 
+		-> Integrating the new feature 
+			-> The application can't have a downtime 
+			-> The update is deployed while the application runs, seamlessly 
+			-> The upgrades happening seamlessly is to do with operations 
+		-> Development produces changes and operations is to do with hardware / deploying these changes on it 
+			-> Operations is also responsible for managing the amount of requests sent to the server 
+				-> Load resistance 
+	-> DevOps 
+				-> The developer team passes over instructions to operations <- there are missing parts and it might not be clear enough 
+		-> Developer <- programming languages, testing this, databases, version control 
+			-> Writing changes to the application 
+		-> Operations <- OS, Linux, command-line, scripting, monitoring tools 
+			-> Committing application changes
+				-> These changes may require a database, for example
+		-> Writing the changes and checking the changes to the code (deploying / managing them and the system to do with how this happens)
+		-> DevOps combines the two, because otherwise they would be separate
+	-> Application release cycles 
+		-> The time taken for a new feature to be released to the public
+			-> DevOps reduces this time, because developer and operations are no longer two separate sides
+			-> DevOps used to be a culture, now it is a separate job title 
+	-> Responsibilities 
+		-> Developer and operations <- knowing a combination of both 
+		-> Going from developer to operations 
+		-> This is to do with feature release
+	-> Skills 
+		-> Test > build > push > deploy 
+		-> CI/CD pipeline <- the process of delivering the application to the release process
+		-> Docker and Kubernetes <- containerisation 
+		-> DevOps is developer and operations 
+-> Waterfall vs agile 
+	-> Waterfall 
+		-> This is older than waterfall 
+		-> Developers write a feature 
+		-> They write the whole feature 
+		-> Business people envision the feature, and then the developers write that feature 
+		-> This is done for the whole application, in a pipeline 
+		-> The entire application is then tested at the end 
+		-> A few cycles for this are done 
+		-> When the developers are done, they then push this over to operations for release of the features and application 
+	-> Waterfall issues 
+		-> This can take years to make the application 
+		-> The process is ineffective 
+		-> The places of failure contain miscommunication 
+		-> There is no fast feedback 
+	-> Agile 
+		-> Cycles 
+		-> New features are tested and deployed 
+		-> It's by feature, rather than for the entire application in one or a few waterfalls 
+		-> Scrum and Kanban <- there are specific implementations of this 
+		-> Continuous integration and delivery 
+			-> Going in multiple /  numerous cycles 
+		-> DevOps uses CI/CD <- releasing the features in cycles 
+			-> Using tools as opposed to people to release features / changes to the code 
+			-> Doing this in sections 
+			-> Implement > test > build > deploy > maintain 
+			-> Releasing application changes in terms of features which are made 
+
+-> Summary
+	-> Applications are written, and when this is the case, there are developers who write changes to the code 
+	-> There are also operations, who release these features to the general public (in most cases)
+	-> Developers write the new feature, and operations release them 
+	-> The feature release can happen in a waterfall approach (the business people write about the features they want, and then this is released all in one), or in an agile approach 
+	-> Releasing features in an agile approach means that DevOps tools are used to automate the process of feature release
+	-> Instead of developers writing a new feature and then writing instructions for operations on how to release this, there can be a DevOps pipeline so that this happens faster
+	-> Monitoring tools can also be used to check release all or most of the time, so that instead of going from a waterfall approach (all of the changes at once), the changes to the code happen like a LaTex document being compiled 
+	-> This is the process of compiling the changes to the features which the developers make to the features which the users see in the deployed application(s)
