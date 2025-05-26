@@ -1,6 +1,6 @@
 # TechWorld-with-Nana-DevOps-Bootcamp-Module-1
 ## Repository Contents 
-This repository contains my work for the first module in [TechWorld with Nana's DevOps Bootcamp](https://www.techworld-with-nana.com/devops-bootcamp) bootcamp. This was completed as part of my independent learning, to invest in my DevOps skills. A [txt file of module content notes](https://github.com/franpanteli/TechWorld-with-Nana-DevOps-Bootcamp-Module-1/blob/main/TWN%20DevOps%20Module%201%20Study%20Notes.txt) was produced for this. This introduction outlined the neccesity of DevOps in the contenxt of software testing and deployment, as well as the dichotomy between waterfall and agile approaches in the context of application feature release. A [word cloud](https://wordart.com/) of the content for these notes is provided below, as well as their summary.  
+This repository contains my work for the first module in [TechWorld with Nana's DevOps Bootcamp](https://www.techworld-with-nana.com/devops-bootcamp) bootcamp. This was completed as part of my independent learning, to invest in my DevOps skills. A [txt file of module content notes](https://raw.githubusercontent.com/franpanteli/TechWorld-with-Nana-DevOps-Bootcamp-Module-1/refs/heads/main/TWN%20DevOps%20Module%201%20Study%20Notes.txt) was produced for this. This introduction outlined the neccesity of DevOps in the contenxt of software testing and deployment, as well as the dichotomy between waterfall and agile approaches in the context of application feature release. A [word cloud](https://wordart.com/) of the content for these notes is provided below, as well as their summary.  
 
 <img width="872" alt="Screenshot 2025-01-19 at 15 36 10" src="https://github.com/franpanteli/TechWorld-with-Nana-DevOps-Bootcamp-Module-1/blob/main/Screenshot%202025-05-26%20at%2017.35.41.png" />
 
@@ -13,8 +13,6 @@ This repository contains my work for the first module in [TechWorld with Nana's 
 	-> Instead of developers writing a new feature and then writing instructions for operations on how to release this, there can be a DevOps pipeline so that this happens faster
 	-> Monitoring tools can also be used to check release all or most of the time, so that instead of going from a waterfall approach (all of the changes at once), the changes to the code happen like a LaTex document being compiled 
 	-> This is the process of compiling the changes to the features which the developers make to the features which the users see in the deployed application(s)
-
-[To Download `TWN DevOps Module 1 Study Notes.txt`](https://raw.githubusercontent.com/franpanteli/TechWorld-with-Nana-DevOps-Bootcamp-Module-1/main/TWN%20DevOps%20Module%201%20Study%20Notes.txt)
 
 ### To Clone This Repository
 ```
