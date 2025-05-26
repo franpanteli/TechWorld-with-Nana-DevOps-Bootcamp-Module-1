@@ -1,6 +1,6 @@
 # TechWorld-with-Nana-DevOps-Bootcamp-Module-1
 ### About This Repository
-# -> Summary
+### -> Summary
 	-> Applications are written, and when this is the case, there are developers who write changes to the code 
 	-> There are also operations, who release these features to the general public (in most cases)
 	-> Developers write the new feature, and operations release them 
