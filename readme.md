@@ -3,7 +3,7 @@
 
 # CodingNomads-Flask-20-Realtime-Update
 ## Repository File Tree
-This repository contains my work for the first module in [TechWorld with Nana's DevOps Bootcamp](https://www.techworld-with-nana.com/devops-bootcamp) bootcamp. This was completed as part of my independent learning, to invest in my DevOps skills. A [txt file of module content notes]() was produced for this, whose summary is provided below. This introduction outlined the neccesity of DevOps in the contenxt of software testing and deployment, as well as the dichotomy between waterfall and agile approaches in the context of application feature release. 
+This repository contains my work for the first module in [TechWorld with Nana's DevOps Bootcamp](https://www.techworld-with-nana.com/devops-bootcamp) bootcamp. This was completed as part of my independent learning, to invest in my DevOps skills. A [txt file of module content notes](https://github.com/franpanteli/TechWorld-with-Nana-DevOps-Bootcamp-Module-1/blob/main/TWN%20DevOps%20Module%201%20Study%20Notes.txt) was produced for this. This introduction outlined the neccesity of DevOps in the contenxt of software testing and deployment, as well as the dichotomy between waterfall and agile approaches in the context of application feature release. A [word cloud]() of the content for these notes is provided below, as well as their summary.  
 
 <img width="872" alt="Screenshot 2025-01-19 at 15 36 10" src="https://github.com/user-attachments/assets/55ff51a7-6892-440e-9dfa-6e9351fec3f5" />
 
