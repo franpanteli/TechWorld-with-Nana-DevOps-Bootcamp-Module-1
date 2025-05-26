@@ -3,9 +3,9 @@
 
 # CodingNomads-Flask-20-Realtime-Update
 ## Repository File Tree
-This repository contains my work for the first module in [TechWorld with Nana's DevOps Bootcamp](https://www.techworld-with-nana.com/devops-bootcamp) bootcamp. This was completed as part of my independent learning, to invest in my DevOps skills. A [txt file of module content notes](https://github.com/franpanteli/TechWorld-with-Nana-DevOps-Bootcamp-Module-1/blob/main/TWN%20DevOps%20Module%201%20Study%20Notes.txt) was produced for this. This introduction outlined the neccesity of DevOps in the contenxt of software testing and deployment, as well as the dichotomy between waterfall and agile approaches in the context of application feature release. A [word cloud]() of the content for these notes is provided below, as well as their summary.  
+This repository contains my work for the first module in [TechWorld with Nana's DevOps Bootcamp](https://www.techworld-with-nana.com/devops-bootcamp) bootcamp. This was completed as part of my independent learning, to invest in my DevOps skills. A [txt file of module content notes](https://github.com/franpanteli/TechWorld-with-Nana-DevOps-Bootcamp-Module-1/blob/main/TWN%20DevOps%20Module%201%20Study%20Notes.txt) was produced for this. This introduction outlined the neccesity of DevOps in the contenxt of software testing and deployment, as well as the dichotomy between waterfall and agile approaches in the context of application feature release. A [word cloud](https://wordart.com/) of the content for these notes is provided below, as well as their summary.  
 
-<img width="872" alt="Screenshot 2025-01-19 at 15 36 10" src="https://github.com/user-attachments/assets/55ff51a7-6892-440e-9dfa-6e9351fec3f5" />
+<img width="872" alt="Screenshot 2025-01-19 at 15 36 10" src="https://github.com/franpanteli/TechWorld-with-Nana-DevOps-Bootcamp-Module-1/blob/main/Screenshot%202025-05-26%20at%2017.35.41.png" />
 
 ### Notes Summary
 	-> Applications are written, and when this is the case, there are developers who write changes to the code 
