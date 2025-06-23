@@ -14,6 +14,7 @@ This repository contains my work for the first module in [TechWorld with Nana's 
 	-> Monitoring tools can also be used to check release all or most of the time, so that instead of going from a waterfall approach (all of the changes at once), the changes to the code happen like a LaTex document being compiled 
 	-> This is the process of compiling the changes to the features which the developers make to the features which the users see in the deployed application(s)
 
+### Notes Word Cloud 
 <img width="872" alt="Screenshot 2025-01-19 at 15 36 10" src="https://github.com/franpanteli/TechWorld-with-Nana-DevOps-Bootcamp-Module-1/blob/main/Notes%20Word%20Cloud%20Giff.png" />
 
 ### To Clone This Repository
